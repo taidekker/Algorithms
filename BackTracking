@@ -1,0 +1,11 @@
+public class main {
+     public static void main(String[] args) {
+
+        NQueens queen = new NQueens(10);
+        queen.Calculate(0);
+
+        System.out.print(queen.toString());
+
+    }
+    
+}
